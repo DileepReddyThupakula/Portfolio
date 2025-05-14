@@ -1,48 +1,188 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thupakula Dileep Reddy | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
-    header { background: #00796b; color: white; padding: 2rem; text-align: center; }
-    section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 1rem; border-radius: 10px; }
-    img.profile { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
-    h1 { margin: 0.5rem 0 0.2rem; }
-    h2 { color: #00796b; }
-    ul { list-style: none; padding: 0; }
-    ul li { background: #e0f2f1; margin: 0.3rem 0; padding: 0.5rem; border-radius: 5px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #00796b;
+      color: white;
+      padding: 2rem;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .profile-section {
+      margin-bottom: 1rem;
+    }
+
+    img.profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 0.5rem 0 0.2rem;
+    }
+
+    .contact-icons {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .contact-icons a {
+      background: white;
+      color: #00796b;
+      padding: 10px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s;
+    }
+
+    .contact-icons a:hover {
+      background: #e0f2f1;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      margin-top: 1rem;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #00796b;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #e0f2f1;
+      margin: 0.3rem 0;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+
+    a {
+      color: #00796b;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="profile.jpg" alt="Profile Picture" class="profile" />
-    <h1>Thupakula Dileep Reddy</h1>
-    <p>Data Analyst | Data Entry</p>
+    <div class="profile-section">
+      <img src="profile.jpg" alt="Profile Picture" class="profile" />
+      <h1>Thupakula Dileep Reddy</h1>
+      <p>Aspiring Java Full Stack Developer</p>
+    </div>
+    <div class="contact-icons">
+      <a href="https://www.linkedin.com/in/thupakuladileepreddy" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="mailto:dileepthupakula123@gmail.com" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.instagram.com/dileep_reddy__31/profilecard/?igsh=eWMxMmZ3MW85eDY4" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/916302441350" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
   </header>
+
   <section>
-    <h2>About Me</h2>
-    <p>I am Dileep Reddy, a passionate data enthusiast currently pursuing my B.Tech in Computer Science (Data Science) from GITAM University, Bangalore (2021–2025). I’m eager to apply my analytical and technical skills to real-world problems and contribute meaningfully to the world of data and business intelligence.</p>
+    <h2>Summary</h2>
+    <p>Motivated and detail-oriented aspiring Software Engineer as a Java Full Stack Development course. Gaining hands-on experience with front-end and back-end technologies including Java, Spring Boot, HTML, CSS, JavaScript, and MySQL. Eager to apply developing skills in real-world projects, contribute to collaborative teams, and grow in a technology-driven environment.</p>
   </section>
+
+  <section>
+    <h2>Internships</h2>
+    <h3>Loan Eligibility Prediction</h3>
+    <p><strong>GITAM University Internship</strong> • May 2024 – July 2024</p>
+    <p>Worked on a Loan Eligibility Prediction system during an internship, using machine learning algorithms to assess the likelihood of loan approval. Utilized Python, Pandas, NumPy, and Scikit-learn for data analysis and model development. Applied logistic regression, decision trees, and random forests to evaluate features like income and credit history. Helped enhance decision-making efficiency for financial institutions through performance metrics such as accuracy and precision.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+  
+    <h3>Plant Health Monitoring System</h3>
+    <p><strong>Capstone Project | GITAM University | April 2025</strong></p>
+    <p>
+      Developed an automated plant health monitoring system using computer vision and machine learning techniques to classify crops as healthy or unhealthy. The system used images captured by mobile devices and integrated NPK (Nitrogen, Phosphorus, Potassium) soil analysis for holistic plant health assessment.
+    </p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech – Computer Science Engineering</strong>, GITAM University, Bengaluru (2021–2025) <br> Minor in Data Science</li>
+      <li><strong>Intermediate Education</strong>, Sri Chaitanya Junior College, Vijayawada (2021)</li>
+      <li><strong>Secondary Education</strong>, Krishna Chaitanya High School, Yerraguntla (2019)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Google Android Developer – AICTE (2024)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Coursework</h2>
+    <ul>
+      <li>Java Full Stack Development – In Progress (2025)</li>
+      <li>Google Android Developer – Eduskills (2024)</li>
+      <li>Topics: Android SDK, App UI design, Java Basics, REST API integration</li>
+    </ul>
+  </section>
+
   <section>
     <h2>Skills</h2>
     <ul>
-      <li>MS Office</li>
-      <li>Excel</li>
-      <li>Data Analysis</li>
-      <li>Power BI</li>
-      <li>Tableau</li>
-      <li>Data Entry</li>
+      <li>Java, Spring Boot, MySQL, HTML, CSS, JavaScript</li>
+      <li>Problem Solving</li>
       <li>Communication</li>
+      <li>Team Work</li>
       <li>Time Management</li>
+      <li>Adaptability</li>
     </ul>
   </section>
+
   <section>
     <h2>Contact</h2>
     <p>Email: dileepthupakula123@gmail.com</p>
-    <p>Phone: 6302441350</p>
+    <p>Phone: +91-6302441350</p>
+    <p>Location: Kadapa, Andhra Pradesh, India</p>
   </section>
 </body>
 </html>
